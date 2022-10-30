@@ -1,0 +1,214 @@
+body {
+  background-color: black;
+}
+
+.encabezado {
+  background-color: #46acfa;
+  color: black;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.alineacion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hueso {
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#titulo {
+  font-size: 80px;
+  margin-left: 70px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 900;
+
+}
+
+.barra{
+    width: 100%;
+    height: 55px;
+    background-color: #FF6700;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.botones {
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-style:bold;
+    font-weight: 900;
+    background-color: #46ACFA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botones2{
+    height: 50px;
+    text-align: justify;
+    width: 200px;
+    border: none;
+    font-style:bold;
+    font-weight: 900;
+    font-size: large;
+    background-color: #FF6700;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botones3 {
+    margin-top: 700px;
+}
+
+.imagenes {
+  background-color: #762CDE ;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.imagen{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.imagenPerros{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.productos2 {
+  background-color: #FF6700;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.mapa {
+  height: 100px;
+  margin-top: 10px;
+  
+  }
+  .direccion {
+  text-align: center;
+      
+  }
+
+ .derecha{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .redes1{
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+ }
+
+.imagenConTexto{
+    margin-top: 20px;
+    width: 60%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .izquierda{
+    margin-left: 40px;
+  }
+
+  .centro{
+    width: 600px;
+    text-align: center;
+  }
+  .mensaje{
+    color:#FFFCFC;
+    text-align: center;
+  }
+  .frametitulo{
+    background-color: #FF6700;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  
+  .textvalor{
+    color: #F5F5F5;
+  }
+  .parrafo{
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px; 
+    
+  }
+  .frameCarrito{
+    background-color: #1a4cef;
+    width: 30%;
+    height: 50%;
+    margin-left: 40px;
+    
+  }
+
+  .tarjeta{
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text{
+    margin-left: 20px;
+  }
+
+  .botonCarrito{
+      height: 40px;
+      width: 120px;
+      margin-top: 50%;
+      background-color: #46acfa;
+      font-weight: bold;
+  }
+
+  .totales{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .seleccionado{
+    background-color: #46acfa;
+  }
+
+  .botonFinal{
+    height: 40px;
+    width: 120px;
+    background-color: #46acfa;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }

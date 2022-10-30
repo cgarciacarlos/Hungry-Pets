@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Hungry Pets</title>
+</head>
+<body>  
+<div class="encabezado">
+        <img id="carrito" src="carrito.png" alt="">
+        <a class="botones">Iniciar Sesión</a>
+        <tr>
+            <td>
+                <a class="botones">Regístrate</a>
+            </td>
+        </tr>
+        <div id="logo">
+            
+              <table>
+                <tr>
+                    <td rowspan="2">
+                        <img id="hueso" src="hueso.png" alt="Imagen de uso">
+                    </td>
+                    <td id="titulo1">Hungry</td>
+                </tr>   
+                <tr>
+                    <td id="titulo2">Pets</td>
+                </tr>
+                </table>
+    </div>
+</div>
+
+<div>
+    <div class="barra"> 
+        <a class="botones2"> Inicio </a>
+        <a class="botones2"> Quienes somos </a>
+        <a class="botones2"> Productos </a>  
+        <a class="botones3"> Formas de pago y entrega </a>  
+</div>
+ <img class="imagenPerros" src="perros.png" alt="">
+    <div class="imagenes"> 
+        <img class="imagen" src="perros2.png" alt=""> 
+            <h3 class="productos1">Perros</h3>
+        <img class="imagen" src="gatos.png" alt=""> 
+            <h3 class="productos1" >Gatos</h3>
+        <img class="imagen" src="hamsters.png" alt=""> 
+            <h3 class="productos1">hamsters</h3>
+    </div>    
+
+<div>
+    <div class="productos2">
+        <img class="mapa" src="mapa.png">
+        <p>Agggg ggggg ggggg ggggg gggg gg gg g <br> gg ggggsdaasfds fgsdfdsf fsdfdsfsda fsdfdsf <br> fsdfsdafsda fsdafasd </p>  
+           
+
+        <h4>Medellín Colombia 2022</h4>
+
+
+    </div>
+    <div>
+        
+    </div>
+    
+ 
+
+</div>
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+----------------------------------------------------------
+
+body {
+  background-color: black;
+}
+.encabezado {
+  background-color: #46acfa;
+  color: black;
+  width: 100%;
+  margin-top: 20px;
+  height:150px;
+  margin-bottom: 20px;
+}
+
+#hueso {
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  max-width: max-content;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo1 {
+  font-size: 90px;
+  margin-left: 70px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: bold;
+  font-weight: 900;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  line-height:0px;
+  vertical-align: text-top;
+  padding-top: 20px;
+}
+
+#titulo2 {
+  font-size: 90px;
+  margin-left: 70px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: bold;
+  font-weight: 900;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  line-height:0px;
+  vertical-align: text-bottom;
+}
+
+.barra{
+    width: 100%;
+    height: 55px;
+    background-color: #FF6700;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.botones {
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-style:bold;
+    font-weight: 900;
+    background-color: #46ACFA;
+    margin-left: auto;
+    margin-right: auto;
+    float:right;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+}
+#carrito{
+  display: flex;
+  float:right;
+  vertical-align: text-bottom;
+  justify-content: baseline;
+}
+.botones2{
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    height: 50px;
+    text-align: justify, center;
+    width: 200px;
+    border: none;
+    padding-top: 15px;
+    font-style:bold;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    line-height:17px;
+}
+
+.botones3{
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 12px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+}
+
+.imagenes {
+  background-color: #762CDE ;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.producto1{
+  display: flex;
+  flex-direction: ;
+}
+
+.imagen{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    float:right;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+}
+
+.imagenPerros{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.productos2 {
+  background-color: #FF6700;
+  
+}
+.mapa {
+  margin-left: 35%;
+  width: 30%;
+  margin-top: 10px;
+  }
+
