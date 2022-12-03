@@ -91,23 +91,46 @@ body {
   float:right;
   font-family:"Arial Black", Helvetica, sans-serif ;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .botones2{
-    height: 50px;
-    text-align: justify;
-    width: 200px;
-    border: none;
-    font-style:bold;
-    font-weight: 900;
-    font-size: large;
-    background-color: #FF6700;
-    margin-left: auto;
-    margin-right: auto;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 15px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
-.botones3 {
-    margin-top: 700px;
+.botones3{
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 12px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .imagenes {
@@ -158,12 +181,6 @@ body {
     flex-direction: row;
  }
 
- .redes1{
-  width: 20px;
-  height: 20px;
-  margin: 20px;
- }
-
 .imagenConTexto{
     margin-top: 20px;
     width: 60%;
@@ -180,20 +197,11 @@ body {
     width: 50%;
     text-align: center;
   }
-  #footer{
-    background-color: #FF6700;
-    color: black;
-    width: 100%;
-    margin-top: 20px;
-    height:250px;
+
+  .productos1{
     font-family:"Arial Black", Helvetica, sans-serif ;
-  } 
-  #texto{
-    display: flex;
-    width: 300px;
-    padding-top: 20px;
-    margin-right: 60px;
   }
+
   #map{
     align-items: center;
     margin-top: 0px;
@@ -206,3 +214,16 @@ body {
     align-items: right;
     margin-left: 100px;
   }
+  #footer{
+    background-color: #FF6700;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    height:250px;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+  } 
+  #texto{
+    display: flex;
+    width: 300px;
+    padding-top: 20px;
+    m

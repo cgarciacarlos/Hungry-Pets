@@ -7,6 +7,29 @@ body {
   color: black;
   width: 100%;
   margin-top: 20px;
+  height:150px;
+  margin-bottom: 20px;
+}
+
+#carrito{
+  display: flex;
+  float:right;
+  vertical-align: text-bottom;
+  justify-content: baseline;
+}
+
+#hueso {
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  max-width: max-content;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .alineacion {
@@ -16,60 +39,99 @@ body {
   flex-wrap: wrap;
 }
 
-#hueso {
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 100px;
-}
-
-#titulo {
-  font-size: 80px;
+#titulo1 {
+  font-size: 90px;
   margin-left: 70px;
   color: black;
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Inter";
   font-style: bold;
   font-weight: 900;
-
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  line-height:0px;
+  vertical-align: text-top;
+  padding-top: 20px;
+}
+#titulo2 {
+  font-size: 90px;
+  margin-left: 70px;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: bold;
+  font-weight: 900;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  line-height:0px;
+  vertical-align: text-bottom;
+  
 }
 
 .barra{
-    width: 100%;
-    height: 55px;
-    background-color: #FF6700;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  width: 100%;
+  height: 55px;
+  background-color: #FF6700;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-
 .botones {
-    height: 40px;
-    width: 120px;
-    border: none;
-    font-style:bold;
-    font-weight: 900;
-    background-color: #46ACFA;
-    margin-left: auto;
-    margin-right: auto;
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-style:bold;
+  font-weight: 900;
+  background-color: #46ACFA;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .botones2{
-    height: 50px;
-    text-align: justify;
-    width: 200px;
-    border: none;
-    font-style:bold;
-    font-weight: 900;
-    font-size: large;
-    background-color: #FF6700;
-    margin-left: auto;
-    margin-right: auto;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 15px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  background-color: #FF6700;
+  height: 20%;
 }
 
-.botones3 {
-    margin-top: 700px;
+.botones3{
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 12px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  background-color: #FF6700;
+  height: 20%;
 }
 
 .imagenes {
@@ -153,7 +215,8 @@ body {
     font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
-
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    font-size: 22px;
   }
   
   .textvalor{
@@ -172,6 +235,7 @@ body {
     width: 30%;
     height: 50%;
     margin-left: 40px;
+    font-family:"Arial Black", Helvetica, sans-serif ;
     
   }
 
@@ -183,6 +247,7 @@ body {
   
   .text{
     margin-left: 20px;
+    font-family:"Arial Black", Helvetica, sans-serif ;
   }
 
   .botonCarrito{
@@ -198,10 +263,14 @@ body {
     font-weight: bold;
     text-align: left;
     margin-left: 10%;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    align-items: center;
+    justify-content: center;
   }
 
   .seleccionado{
     background-color: #46acfa;
+    font-family:"Arial Black", Helvetica, sans-serif ;
   }
 
   .botonFinal{
@@ -211,4 +280,11 @@ body {
     font-weight: bold;
     margin-top: 2%;
     margin-bottom: 5%;
+  }
+  .parrafo{
+    text-align: left;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
   }

@@ -75,7 +75,7 @@ body {
     font-family:"Arial Black", Helvetica, sans-serif ;
     cursor: pointer;
     text-decoration: none;
-    color:black
+    color: black;
 }
 #carrito{
   display: flex;
@@ -99,9 +99,8 @@ body {
     line-height:17px;
     cursor: pointer;
     text-decoration: none;
-    color:black
+    color: black;
 }
-
 .botones3{
   font-family:"Arial Black", Helvetica, sans-serif ;
   height: 50px;
@@ -118,103 +117,153 @@ body {
   line-height:17px;
   cursor: pointer;
   text-decoration: none;
-    color:black
-}
-.br{
-  height: 20px;
-  background-color: black;
-}
-#cuadro{
-  background-color: #FF6700;
   color: black;
-  margin-top: 35px;
-  margin-left: 60px;
-  height: 870px;
-  width: 900px;
+}
+
+#cuadro{
+  background-color: #762CDE;
+  color: black;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 500px;
+  width: 100%;
+}
+.pago{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #titulo3{
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   display: flex;
   padding-top: 20px;
   font-family:"Arial Black", Helvetica, sans-serif ;
   font-size: 50px;
+  padding-left: 50px;
 }
 #cuadro2{
-  background-color: #762CDE;
-  margin-left: 50px;
-  margin-top: 50px;
-  height: 670px;
-  width: 800px;
-}
-.user{
-  margin-left: 45px;
-  margin-top: 50px;
-  font-family:"Arial Black", Helvetica, sans-serif ;
-  font-size: 35px;
-  text-align: left;
-}
-.entrada{
-  background-color: #46ACFA;
-  align-items: left;
-  text-align: left;
-  vertical-align: left;
-  margin-right: 50px;
-  height: 40px;
+  background-color: #FF6700;
+  margin-left: 110px;
+  margin-top: 2px;
+  height: 400px;
   width: 400px;
+  vertical-align: center;
 }
-.botones4{
-  margin-bottom: 30px;
-  margin-left:130px;
+#cuadro3{
+  background-color: #FF6700;
+  margin-left: 300px;
+  margin-top: 2px;
+  height: 400px;
+  width: 400px;
+  vertical-align: center;
+}
+#cuadro4{
+  background-color: #46ACFA;
+  color: black;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 600px;
+  width: 100%;
+}
+#cuadro5{
+  background-color: #46ACFA;
+  margin-top: -400px;
+  margin-left: 160px;
+  margin-right: 50px;
+  height: 350px;
+  width: 5  0%;
+}
+#cuadro6{
+  background-color: #46ACFA;
+  margin-top: -400px;
+  margin-left: 350px; 
+  margin-right: 130px;
+  height: 350px;
+  width: 43%;
+}
+#cuadro7{
+  background-color: #762CDE;
+  margin-top: -400px;
+  margin-left: 160px;
+  margin-right: 50px;
+  height: 350px;
+  width: 5  0%;
+}
+#cuadro8{
+  background-color: #762CDE;
+  margin-top: -400px;
+  margin-left: 350px; 
+  margin-right: 130px;
+  height: 350px;
+  width: 43%;
+}
+#prod1{
+  display: flex;
+  height: 330px;
+  width: 250px;
+  margin-left: 35px;
+  image-resolution: fit-content;
+  cursor: pointer;
+}
+#prod2{
+  display: flex;
+  height: 330px;
+  width: 250px;
+  margin-left: 35px;
+  image-resolution: fit-content;
+  cursor: pointer;
+}
+#prod3{
+  display: flex;
+  height: 330px;
+  width: 250px;
+  margin-left: 35px;
+  image-resolution: fit-content;
+  cursor: pointer;
+}
+#prod4{
+  display: flex;
+  height: 330px;
+  width: 250px;
+  margin-left: 35px;
+  image-resolution: fit-content;
+  cursor: pointer;
+}
+figcaption{
+  text-align: center;
+  padding-top: 30px;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+}
+#footer{
+  background-color: #FF6700;
+  color: black;
+  width: 100%;
   margin-top: 20px;
+  height:250px;
   font-family:"Arial Black", Helvetica, sans-serif ;
-  background-color: #FF6700;
-  border: none;
-  height: 40px;
-  width: 200px;
-  font-size: 20px;
-  cursor: pointer;
 }
-
-#fb{
-  display:flex;
-  float: right;
-  background-image: url(https://www.elcolombiano.com/base-portlet/webrsrc/theme/871467bc11c2889ed9b54584354d7c05.png);
-  background-size: 180px;
-  height: 38px;
-  width: 179px;
-  border-radius: 5px;
+#texto{
+  display: flex;
+  width: 300px;
+  padding-top: 20px;
   margin-right: 60px;
-  margin-top: 220px;
-  cursor: pointer;
-  margin-left: auto;
 }
-
-#google{
-  display:flex;
-  float: right;
-  background-image: url(https://www.elcolombiano.com/base-portlet/webrsrc/theme/52b2f6b1d38da5b6ea8e07bc7fa51d50.png);
-  background-size: 180px;
-  height: 38px;
-  width: 179px;
-  border:none;
-  margin-right: -178px;
-  margin-top: 350px;
-  cursor: pointer;
-  margin-left: auto;
+#map{
+  align-items: center;
+  margin-top: 0px;
+  height: 170px;
+  width: 500px;
+  vertical-align: middle;
 }
-#Admin{
-  display:flex;
-  float: right;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-top: 400px;
-  margin-right: -190px;
+#redes{
+  display: flex;
+  align-items: right;
+  margin-left: 100px;
+}
+.parrafo{
   font-family:"Arial Black", Helvetica, sans-serif ;
-  background-color: #FF6700;
-  border: none;
-  height: 40px;
-  width: 200px;
-  font-size: 24px;
-  cursor: pointer;
+}
+.lista{
+  font-family:"Arial Black", Helvetica, sans-serif ;
 }

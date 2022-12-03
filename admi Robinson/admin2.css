@@ -1,127 +1,38 @@
-.titulo{
+.titulo1{
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    color:rgb(0, 0, 0);
+    margin-top: auto;
+    font-size: 50px;
+    margin: 0px;
+
+}.titulo2{
     font-family:"Arial Black", Helvetica, sans-serif ;
     color:rgb(0, 0, 0);
     margin-top: auto;
     font-size: 40px;
-    margin: 5px;
+    margin: 70px;
+    
 }
 .cuadro{
-    padding: 15px 30px;
+    padding: 30px 60px;
     background-color:rgb(255, 102, 0);
-    margin: 120px;
+    margin: 65px;
     height:auto;
     color: black;
 }
 .cuadro2{
+    padding: 10px 10px;
      background-color: #7b1fd1;
-     margin: 30px;
+     margin: 5px;
      color:black;
+    
 } 
     
 .letra{
    color: black;
     font-size: 30px;
     font-weight:normal;
-}
-.btn1{
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left:80px;
-    margin-top: 6px;
-    background-color: rgb(255, 102, 0);
-    font-family:"Arial Black", Helvetica, sans-serif;
-    border-bottom: center;
-    width: 200px;
-    height: 50px;
-    cursor:pointer;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    text-align:center;
-}
-.letra1{
-    font-family:"Arial Black", Helvetica, sans-serif;
-    color:rgb(0, 0, 0);
-    background-color: rgb(255, 102, 0);
-    border: 25px;
-    padding: 5px 23px;
-    text-align:left;
-    color: rgb(0, 0, 0);
-    margin: 4px 2px;
-    font-size: xx-large;
-}
-.letra2{
-    background-color: rgb(255, 102, 0);
-    border: 25px;
-    padding: 5px 43px;
-    font-family:"Arial Black", Helvetica, sans-serif ;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 45px;
-    margin: 4px 2px;
-    font-size: xx-large;
-}
-.letra3{
-    background-color: rgb(255, 102, 0);
-    border: 25px;
-    padding: 5px 15px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 45px;
-    font-size: xx-large;
-    font-family:"Arial Black", Helvetica, sans-serif ;
-    margin: 4px 2px;
-}
-.letra4{
-    background-color: rgb(255, 102, 0);
-    border: 25px;
-    padding: 7px 25px;
-    text-align: center;
-    font-family:"Arial Black", Helvetica, sans-serif ;
-    font-size: xx-large;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    margin: 4px 2px;
-}
-.entrada{ 
-    text-align: left;
-    border-bottom: none;
-    background-color: rgb(0, 238, 255);
-    vertical-align:super;
-    padding: 18px 156px;
-    align-items: center;
-    color: black;
-    font-size:medium;
-    margin: 10px 10px;
-}
-.btono{ 
-    border-bottom: none;
-    background-color: rgb(0, 238, 255);
-    border: 25px;
-    padding: 2px 315px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    margin: 4px 4px;
-}
-.btone{ 
-    text-align: right;
-    background-color: rgb(0, 238, 255);
-    border: 25px;
-    padding: 4px 315px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 45px;
-    margin: 4px 4px;
-}
-.btonu{ 
-    background-color: rgb(0, 238, 255);
-    border: 25px;
-    padding: 4px 315px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 45px;
-    margin: 4px 4px;
-}
+}  
 body {
     background-color: black;
   }
@@ -188,21 +99,21 @@ body {
   
   .botones {
       height: 40px;
-      width: 120px;
+      width: 140px;
       border: none;
       font-style:bold;
       font-weight: 900;
       background-color: #46ACFA;
       margin-left: auto;
       margin-right: auto;
-      float:right;
+      float:right;  
       font-family:"Arial Black", Helvetica, sans-serif ;
       cursor: pointer;
   }
   #carrito{
     display: flex;
     float:right;
-    vertical-align: text-bottom;
+    vertical-align:text-bottom;
     justify-content: baseline;
   }
   .botones2{
@@ -237,3 +148,49 @@ body {
     line-height:17px;
     cursor: pointer;
   }
+.btn1{
+    margin-bottom: 0px;
+    margin-right: 110px;
+    margin-left:80px;
+    margin-top:100px;
+    background-color: rgb(255, 102, 0);
+    font-family:"Arial Black", Helvetica, sans-serif;
+    border-bottom: center;
+    width: 200px;
+    height: 55px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align:center;
+}
+
+.btn2{
+    margin-bottom: 0px;
+    margin-right: 110px;
+    margin-left:80px;
+    margin-top: 10px;
+    background-color: rgb(255, 102, 0);
+    font-family:"Arial Black", Helvetica, sans-serif;
+    border-bottom: center;
+    width: 390px;
+    height: 60px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align:center;
+}
+.bnto{
+    margin-bottom: 0px;
+    margin-right: 110px;
+    margin-left:80px;
+    margin-top: 40px;
+    background-color: rgb(255, 102, 0);
+    font-family:"Arial Black", Helvetica, sans-serif;
+    border-bottom: center;
+    width: 390px;
+    height: 60px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align:center;
+}

@@ -1,0 +1,232 @@
+body {
+    background-color: black;
+  }
+  .encabezado {
+    background-color: #46acfa;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    height:150px;
+    margin-bottom: 20px;
+  }
+  
+  #carrito{
+    display: flex;
+    float:right;
+    vertical-align: text-bottom;
+    justify-content: baseline;
+  }
+  
+  #hueso {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+    max-width: max-content;
+  }
+  
+  #logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .alineacion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #titulo1 {
+    font-size: 90px;
+    margin-left: 70px;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: bold;
+    font-weight: 900;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    line-height:0px;
+    vertical-align: text-top;
+    padding-top: 20px;
+  }
+  #titulo2 {
+    font-size: 90px;
+    margin-left: 70px;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: bold;
+    font-weight: 900;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+    line-height:0px;
+    vertical-align: text-bottom;
+    
+  }
+  .barra{
+    width: 100%;
+    height: 55px;
+    background-color: #FF6700;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.botones {
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-style:bold;
+  font-weight: 900;
+  background-color: #46ACFA;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.botones2{
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 15px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.botones3{
+  font-family:"Arial Black", Helvetica, sans-serif ;
+  height: 50px;
+  text-align: justify, center;
+  width: 200px;
+  border: none;
+  padding-top: 12px;
+  font-style:bold;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height:17px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.imagenes {
+  background-color: #762CDE ;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.somos{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    
+   
+}  
+.hueso {
+    height: 50px;
+    margin: 5px;
+    margin-left: 100px;
+    max-width: max-content;
+
+  }
+  .titulo1{
+   padding: 5px;
+   margin: 1%;
+   font-family:"Arial Black", Helvetica, sans-serif ;
+  }
+  .titulo2{
+   height: 50px;
+   margin: 1%;
+   font-family:"Arial Black", Helvetica, sans-serif ;
+  }
+  .titulo3{
+   margin: 4%;
+   font-family:"Arial Black", Helvetica, sans-serif ;
+  }
+  .titulo4{
+   margin: 5%;
+   font-family:"Arial Black", Helvetica, sans-serif ;
+   }
+   .color{
+    background-color: #762CDE;
+    height: 300px;
+   }
+   .parrafo{
+  margin: 1%;
+  font-family:"Arial Black", Helvetica, sans-serif 
+   }
+   .perros{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   }
+   .MisionVisio{
+    background-color: #46ACFA;
+    display: flex;
+    margin-top: 1%;
+    justify-content:space-evenly;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+   }
+   .MisionVisio2{
+    background-color: #46ACFA;
+    display:flex;
+    justify-content:space-evenly;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+   }
+   #map{
+    align-items: center;
+    margin-top: 0px;
+    height: 170px;
+    width: 500px;
+    vertical-align: middle;
+  }
+  #redes{
+    display: flex;
+    align-items: right;
+    margin-left: 100px;
+  }
+  #footer{
+    background-color: #FF6700;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    height:250px;
+    font-family:"Arial Black", Helvetica, sans-serif ;
+  } 
+  #texto{
+    display: flex;
+    width: 300px;
+    padding-top: 20px;
+    margin-right: 60px;
+  }

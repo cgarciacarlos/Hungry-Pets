@@ -75,6 +75,7 @@ body {
     font-family:"Arial Black", Helvetica, sans-serif ;
     cursor: pointer;
     text-decoration: none;
+    color: black;
 }
 #carrito{
   display: flex;
@@ -97,6 +98,8 @@ body {
     vertical-align: middle;
     line-height:17px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .botones3{
@@ -114,8 +117,9 @@ body {
   vertical-align: middle;
   line-height:17px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
-
 #cuadro{
   background-color: #762CDE;
   color: black;
